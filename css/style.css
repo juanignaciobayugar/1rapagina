@@ -1,0 +1,307 @@
+
+/* Fuentes */
+@font-face 
+{ font-family: 'Sultan';
+     src: url('../fonts/sultan/Sultan.otf') format('woff');
+     
+}
+
+@font-face 
+{ font-family:"juni";
+     src: url('../fonts/junicode/Junicode-ItalicCondensed.ttf') format('woff');
+     
+}
+
+@font-face 
+{ font-family: 'Poppins';
+     src: url('../fonts/poppins/Poppins-Light.ttf') format('woff');
+     
+}
+
+/*propiedades del body*/
+
+body {
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+/* Cabecera */
+
+#titular  {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/*titulo logo*/
+.titulo {
+    font-size: 5.35rem;
+    font-family: 'Sultan', sans-serif;
+    margin-bottom: 0;
+
+}
+
+/*subtitulo logo*/
+.subtitulo {
+    font-size: 1.10rem;
+    font-family: 'juni', sans-serif;
+    margin-top: -39px;
+}
+
+/*descipcion del emprendimiento*/
+
+#descripcion {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b51d02;
+    box-shadow: 0px 0px 2px rgb(50, 41, 41);
+    text-shadow: 2px 2px 4px #4a1a1a;
+    margin: 40 px;
+    width: 100%;
+    font-weight: Merriweather; lato; sans-serif;
+    font-size: 1.17rem;
+    color:  #f0eb95;
+    gap: 10px;
+    margin-top: -10px;
+    margin-bottom:0;
+}
+
+.detalleDescripcion {
+    width: 76%;
+}
+
+/* apartado productos disponibles*/ 
+
+#productosDisponibles {
+    font-family:'Poppins';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2e575; 
+    box-shadow: 0px 0px 2px rgb(50, 41, 41);
+    text-shadow: 0.3px 0.3px 0.5px #191613;
+    margin: 0;
+    color: #000000;
+    padding: 0px;
+    width: 100%;
+    height: 23px;
+    gap: 0px;
+    margin-bottom: 5px;
+}
+
+
+/* contenido de productos*/
+
+#contenedorFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+/*tarjeta principal*/
+.forma {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 240px;
+    align-items: center;
+    border: 1px solid rgb(38, 19, 19);
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(50, 41, 41);
+}
+
+
+/* propiedades nombre y precio tarjeta principal*/
+.nombreYPrecio {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+/*propiedades imagenes tarjeta principal*/
+.forma img {
+    width: 80%;
+    box-shadow: 1px 1px 5px  rgb(50, 41, 41);
+}
+
+/* Nombre del producto tarjeta principal*/
+#nombreProducto {
+    flex: 1;
+    margin-bottom: -4px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #c4100d;
+    text-shadow: 0.3px 0.3px 0.5px #190404;
+    font-weight: lato;bold;
+}
+
+/* Precio tarjeta principal*/
+    #PrecioUnidad {
+    flex: 1;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    color: #000000;
+    font-weight: roboto;bold;
+}
+
+/* input tarjeta principal*/ 
+    input {
+    border: 1px solid #9f8787;
+    border-radius: 5px;
+    margin-bottom: 0,5px;
+    padding: 4px;
+    font-size: 16px;
+    color: rgb(38, 19, 19);
+    background-color: #f1eed2;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 200px;
+    outline: 1px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Boton tarjeta principal*/
+    button {
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 0,5px;
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f586;
+    box-shadow: inset  1px 3px rgba(0, 0, 0, 0.1);
+    outline: 1px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    max-width:200px ;
+    width: 90%;
+}
+
+
+
+
+/*finalice su compra*/ 
+
+    #termineCompra {
+    font-family:'Poppins';
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#dd082f;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 31px;
+    border: 1px solid #c10f5f;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+}
+
+/* tarjeta de compra - Total */
+
+    #contenedorText {
+    
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400;
+    padding: 10px;
+    border: 1px solid gray;
+    gap: 10px;
+    width: 240px;
+    align-items: center;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    
+}
+
+
+
+/* logo marca en total compra*/ 
+
+    .tituloTotal {
+    font-size: 3.70rem;
+    font-family: 'Sultan', sans-serif;
+    margin-bottom: 0;
+
+}
+
+
+    .subtituloTotal {
+    font-size: 0.74rem;
+    font-family: 'juni', sans-serif;
+    margin-top: -20px;
+}
+
+/*carrito imagen*/
+
+    #contenedorText img {
+    flex-wrap: wrap;
+    margin-top: 45px;
+    width: 20%;
+}
+
+
+/*Boton finalizar compra*/
+    #btnFinalizar {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 0,5px;
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f586;
+    box-shadow: inset  1px 3px rgba(0, 0, 0, 0.1);
+    outline: 1px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    max-width:200px ;
+}
+
+/*Propiedades del total*/
+
+    #totalT{
+    text-align: center;
+    font-size: 22px;
+    font-family: Roboto;
+    margin-bottom: 0px;
+
+}
+    #totalText {
+    text-align: center;
+    font-size: 35px;
+    font-family: Roboto;
+    margin-bottom: 25px;
+
+}
+
+
+
+
+
