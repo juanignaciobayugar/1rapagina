@@ -71,7 +71,7 @@ flex-direction: column;
     text-shadow: 2px 2px 4px #4a1a1a;
     margin: 40 px;
     width: 100%;
-    font-weight: Merriweather; lato; sans-serif;
+    font-weight: Merriweather;
     font-size: 1.17rem;
     color:  #f0eb95;
     gap: 10px;
@@ -152,7 +152,7 @@ flex-direction: column;
     font-size: 1.4rem;
     color: #c4100d;
     text-shadow: 0.3px 0.3px 0.5px #190404;
-    font-weight: lato;bold;
+    font-weight: lato;
 }
 
 /* Precio tarjeta principal*/
@@ -162,7 +162,7 @@ flex-direction: column;
     font-size: 1.7rem;
     padding-bottom: 10px;
     color: #000000;
-    font-weight: roboto;bold;
+    font-weight: roboto;
 }
 
 /* input tarjeta principal*/ 
